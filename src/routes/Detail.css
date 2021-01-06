@@ -1,6 +1,8 @@
-.movies .movie{
+.detail_movie{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
     background-color: white;
-    margin-left: 10%;
     margin-bottom: 70px;
     font-weight: 300;
     padding: 20px;
@@ -9,14 +11,14 @@
     box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0,0,0.3)
     , 0 -6px 16px -6px rgba(0, 0,0,0.025);
 }
-.movies .movie a{
+.detail_movie a{
     display: grid;
     grid-template-columns: minmax(150px, 1fr) 2fr;
     grid-gap: 20px;
     text-decoration: none;
     color: inherit;
 }
-.movie img{
+.detail_movie img{
     position: relative;
     top: -50px;
     max-width: 150px;
@@ -25,17 +27,17 @@
     box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0,0,0.3)
     , 0 -12px 36px -8px rgba(0, 0,0,0.025);
 }
-.movie .movie__title,
-.movie .movie__year{
+.detail_movie .movie__title,
+.detail_movie .movie__year{
     margin: 0;
     font-weight: 300;
 }
-.movie .movie__title{
+.detail_movie .movie__title{
     margin-bottom: 5px;
-    font-size: 24px;
+    font-size: 36px;
     color: #2c2c2c;
 }
-.movie .movie__genres{
+.detail_movie .movie__genres{
     list-style: none;
     padding: 0;
     margin: 0;
@@ -44,12 +46,7 @@
     margin: 5px 0px;
 }
 .movie__genres li,
-.movie .movie__year{
+.detail_movie .movie__year{
     margin-right: 10px;
     font-size: 14px;
-}
-.input_div{
-    display: inline-block;
-    margin: 0 auto;
-    text-align: center;
 }
